@@ -1,6 +1,5 @@
-import Onenews from "./components/onenews"
-import {newsData} from "./fixtures/newsdata";
 import './App.css'
+import Blog from "./components/blog";
 
 function App() {
   return (
@@ -8,9 +7,7 @@ function App() {
      <div>
          <h1>News from Kimish</h1>
          <div>
-             {
-                 newsData.map(object => { return <Onenews key={object.id} {...object} /> })
-             }
+           <Blog/>
          </div>
      </div>
     </>
