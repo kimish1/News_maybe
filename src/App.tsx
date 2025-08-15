@@ -6,8 +6,7 @@ function App() {
     <>
      <div>
          <h1>News from Kimish</h1>
-         <div>
-           <Blog/>
+         <div><Blog/>
          </div>
      </div>
     </>
